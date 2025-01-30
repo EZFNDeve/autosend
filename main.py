@@ -56,4 +56,4 @@ else:
 if __name__ == '__main__': 
 	while True:    
 		main()      
-		sleep(120) #How often the message should be sent (in seconds), every 1 hour = 3600
+		sleep(15) #How often the message should be sent (in seconds), every 1 hour = 3600
