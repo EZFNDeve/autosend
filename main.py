@@ -5,7 +5,7 @@ from json import dumps
 from time import sleep 
 import json
 #Load Config
-with open('./config.json') as f:
+with open('config.json') as f:
   data = json.load(f)
   for c in data['Config']:
         print('Loading...')
